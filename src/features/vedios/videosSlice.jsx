@@ -1,5 +1,4 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { getVideos } from "../../service/apiRequestFunctions";
+import {  createSlice } from "@reduxjs/toolkit";
 import initialState from "./vediosInitialStates";
 import { fetchVideosThunk } from "./vediosThunkFunctions";
 
